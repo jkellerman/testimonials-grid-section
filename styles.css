@@ -20,3 +20,22 @@ body {
   font-size: 13px;
   background-color: var(--Light-grayish-blue);
 }
+
+.testimonial-grid {
+  max-width: 85%;
+  margin: 4em auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, min-content);
+}
+
+.testimonial-1,
+.testimonial-4 {
+  grid-column: span 2;
+}
+
+.testimonial-5 {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+}
