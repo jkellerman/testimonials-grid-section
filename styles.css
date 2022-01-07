@@ -16,9 +16,12 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
   background-color: var(--Light-grayish-blue);
+  min-height: 100vh;
 }
 
 .testimonial-grid {
@@ -28,6 +31,25 @@ body {
   grid-gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, min-content);
+}
+
+.testimonial {
+  box-shadow: 0 10px 20px var(--Very-dark-blackish-blue);
+  border-radius: 15px;
+  padding: 1em 2em;
+}
+
+.student {
+  display: flex;
+}
+
+.testimonial-heading {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.testimonial-detail {
+  line-height: 1.5;
 }
 
 .testimonial-1,
