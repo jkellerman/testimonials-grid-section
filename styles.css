@@ -105,7 +105,7 @@ body {
   color: var(--Very-dark-blackish-blue);
 }
 
-@media (min-width: 1330px) {
+@media (min-width: 1024px) {
   .testimonial-grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, min-content);
